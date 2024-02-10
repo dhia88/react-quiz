@@ -135,13 +135,6 @@ function App() {
             dispatch={dispatch}
           />
         )}
-        {status === "finished" && (
-          <FinishScreen
-            points={points}
-            maxPossiblePoints={maxPossiblePoints}
-            highscore={highscore}
-          />
-        )}
       </Main>
     </div>
   );
